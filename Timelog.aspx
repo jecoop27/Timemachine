@@ -4,8 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cph_Head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cph_Body" Runat="Server">
-    <asp:DropDownList ID="ddlClasses" runat="server" 
-       onselectedindexchanged="ddlClasses_SelectedIndexChanged">
+    <asp:DropDownList ID="ddlClasses" runat="server">
     </asp:DropDownList>
     <asp:DropDownList ID="ddlStudents" runat="server">
     </asp:DropDownList>
