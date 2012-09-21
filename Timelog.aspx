@@ -4,7 +4,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cph_Head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cph_Body" Runat="Server">
-</asp:Content>
+    <asp:DropDownList ID="ddlClasses" runat="server" 
+       onselectedindexchanged="ddlClasses_SelectedIndexChanged">
+    </asp:DropDownList>
+    <asp:DropDownList ID="ddlStudents" runat="server">
+    </asp:DropDownList>
+    <asp:DropDownList ID="ddlProjects" runat="server">
+    </asp:DropDownList>
+    <asp:DropDownList ID="ddlWeek" runat="server">
+    </asp:DropDownList>
+    <asp:GridView ID="gvTimeLog" runat="server">
+    </asp:GridView>
+    </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cph_Foot" Runat="Server">
 </asp:Content>
 
